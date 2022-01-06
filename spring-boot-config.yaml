@@ -1,0 +1,22 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: spring-boot-config
+  namespace: ellkim-dev
+  uid: 51813d64-d3a7-495d-9a03-50f8ff1b65e4
+  resourceVersion: '293092569'
+  creationTimestamp: '2021-11-08T19:23:04Z'
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2021-11-09T15:51:08Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:environment': {}
+          'f:spring.application.name': {}
+data:
+  environment: elliottenv
+  spring.application.name: elliottservice
